@@ -1,0 +1,52 @@
+what is javascript ? 
+
+proggraming languges that add functions to web or mobile app or even desktop app 
+
+
+
+ways include javascript into your website or html page
+
+1) inline scritpt 
+2) external script 
+
+console in the browser 
+
+console is were your check to see if something went worng with your javascript code ..................................
+
+
+
+
+
+All css framework diffenrt classNames 
+
+Syntax and Basic Constructs: Understand variables, data types, operators, control structures (if statements, loops), functions, and scope.
+
+DOM Manipulation: Learn how to interact with the Document Object Model (DOM) to dynamically change HTML and CSS, handle events, and update content.
+
+Asynchronous JavaScript: Understand callbacks, promises, async/await for handling asynchronous operations like fetching data, timers, and events.
+
+Functions and Closures: Master functions as first-class citizens, closures, function expressions, and higher-order functions for effective code organization and reuse.
+
+ES6+ Features: Familiarize yourself with modern JavaScript features like arrow functions, destructuring, template literals, classes, modules, and spread/rest operators.
+
+Error Handling: Learn about try/catch blocks, error objects, and best practices for debugging and handling exceptions.
+
+ESLint and Code Quality: Use tools like ESLint to enforce coding standards, improve code quality, and catch potential issues early.
+
+Browser APIs and Events: Explore commonly used browser APIs (e.g., localStorage, fetch API) and event handling to create interactive web applications.
+
+AJAX and Fetch: Understand how to make asynchronous HTTP requests using XMLHttpRequest, Fetch API, and handle responses.
+
+Frameworks and Libraries: Gain familiarity with popular JavaScript frameworks/libraries like React, Vue.js, Angular, and jQuery depending on project requirements.
+
+Testing: Learn testing frameworks like Jest, Mocha, or Jasmine to write and automate tests for JavaScript code to ensure reliability and maintainability.
+
+Security Best Practices: Understand common security vulnerabilities (e.g., XSS, CSRF) and how to mitigate them in JavaScript applications.
+
+Performance Optimization: Learn techniques for optimizing JavaScript code, including minimizing DOM manipulation, efficient algorithms, and profiling tools.
+
+Version Control: Use Git for version control and collaboration, including branching, merging, and managing repositories (GitHub, GitLab).
+
+Build Tools and Task Runners: Familiarize yourself with tools like Webpack, Babel, npm/yarn for bundling, transpiling, and managing dependencies.
+
+Deployment: Understand the basics of deploying JavaScript applications to different environments, including servers, CDNs, or platforms like Netlify, AWS, or Heroku.
