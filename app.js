@@ -188,27 +188,27 @@ const num2 = 10;
 //     console.log('hello my name is dipo ')
 // }
 
-const mycolor = 'blue dipo'
+// const mycolor = 'blue dipo'
 
-if (mycolor === 'red') {
-    console.log('color is red')
+// if (mycolor === 'red') {
+//     console.log('color is red')
 
-} else if (mycolor === 'green') {
+// } else if (mycolor === 'green') {
 
-    console.log('color is green')
+//     console.log('color is green')
 
-} else if (mycolor === 'yellow') {
+// } else if (mycolor === 'yellow') {
 
-    console.log('color is yellow')
+//     console.log('color is yellow')
 
-} else if (mycolor === 'blue') {
+// } else if (mycolor === 'blue') {
 
-    console.log('color is blue')
-}
+//     console.log('color is blue')
+// }
 
-else {
-    console.log('sorry no color was chooson!!')
-}
+// else {
+//     console.log('sorry no color was chooson!!')
+// }
 
 /// note in some case your condition  ends with just if statement no else or else if 
 
@@ -359,17 +359,17 @@ else {
 
 // Login system 
 
-const username = prompt('Please enter your username') 
+// const username = prompt('Please enter your username') 
 
-const password = prompt('Enter your Password')
+// const password = prompt('Enter your Password')
 
-let result; 
+// let result; 
 
-if (username === "" || password === "") {
-    console.log("Please fill in all fields.")
-} else {
-    console.log("Login successful")
-}
+// if (username === "" || password === "") {
+//     console.log("Please fill in all fields.")
+// } else {
+//     console.log("Login successful")
+// }
 
 // Template LIterals
 // in JavaScript, template literals are a feature that allows you to work
@@ -378,19 +378,46 @@ if (username === "" || password === "") {
 
 
 
+// 8/19/2024 
+// if statement , switch , functions 
+//  1  aissignment find out types of loops in javascript 
+
+//Today will be about Functions.................
+
+// with JavaScript we can make our page funtional
+///note one thing ... built in functions and custom functions 
+/* 
+
+Built in function are functions that live in the  browsers  for a particular purpose 
+
+While custom functions are created by developer to use for a purpose
+
+*/
 
 
+//Note there are three types of functions 
+// working on functions 
+// make a function to say mutiple names  
+function sayname(){
+    ///  you put your function logic inside here 
+    ///  note alway use return keyword inside your function 
+}
+// call your function to make your function work 
+function sayHello(name, age){   //   parameters are used inside your functions parenteless 
+    return `Hello my name is   ${name} and i am ${age} years old`
+}
+console.log(sayHello('Mayowa',34))  // while agurement are used outside your functions parentless
+console.log(sayHello('Dipo',24))
 
+function sayState(countryName){
+    return `The name of this counrtry is ${countryName}`
+}
+console.log(sayState('Nigiera'))
+console.log(sayState('Ghana'))
+console.log(sayState('USA'))
 
-
-
-
-
-
-
-
-
-
-
-
-
+// make a function to turn the  page to color of choice
+function changePageBlack(){
+    document.body.style.backgroundColor = 'green'
+}
+changePageBlack()
