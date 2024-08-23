@@ -398,26 +398,63 @@ While custom functions are created by developer to use for a purpose
 //Note there are three types of functions 
 // working on functions 
 // make a function to say mutiple names  
-function sayname(){
+function sayname() {
     ///  you put your function logic inside here 
     ///  note alway use return keyword inside your function 
 }
 // call your function to make your function work 
-function sayHello(name, age){   //   parameters are used inside your functions parenteless 
+function sayHello(name, age) {   //   parameters are used inside your functions parenteless 
     return `Hello my name is   ${name} and i am ${age} years old`
 }
-console.log(sayHello('Mayowa',34))  // while agurement are used outside your functions parentless
-console.log(sayHello('Dipo',24))
+// console.log(sayHello('Mayowa',34))  // while agurement are used outside your functions parentless
+// console.log(sayHello('Dipo',24))
 
-function sayState(countryName){
+function sayState(countryName) {
     return `The name of this counrtry is ${countryName}`
 }
-console.log(sayState('Nigiera'))
-console.log(sayState('Ghana'))
-console.log(sayState('USA'))
+// console.log(sayState('Nigiera'))
+// console.log(sayState('Ghana'))
+// console.log(sayState('USA'))
 
 // make a function to turn the  page to color of choice
-function changePageBlack(){
-    document.body.style.backgroundColor = 'green'
+function changePageBlack() {
+    document.body.style.backgroundColor = 'red'  // logic 
 }
-changePageBlack()
+changePageBlack()  // call the function to work 
+
+// Note you  use if statement , switch , loop, and other things inside function for what you wanna produce or make in your web app or even mobile app 
+
+// let if statment pluse function 
+
+
+function calulatorApp(sign, digitone, digittwo) {
+    //logic 
+    
+    if (sign === '+') {
+        return digitone + digittwo
+    } else {
+        return ' no sign was choosen'
+    }
+
+}
+
+
+console.log(calulatorApp('+', 10 , 10 ))
+
+console.log(calulatorApp('%' , 3, 10))
+
+
+// Comparison Operators  ,  === , ==
+//  == is use in array or object 
+// ===  is use is string to string  , number to number , boolean to boolean 
+
+// // example 
+// const x = ['dipo', 'mayowa', 'sara']
+// // console.log(  x[2]    )
+// const y = ['dipo']
+
+// if (x[0] == y[0]) {
+//     console.log('working')
+// }else{
+//     console.log('not working')
+// }
