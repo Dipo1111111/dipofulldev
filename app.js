@@ -398,26 +398,117 @@ While custom functions are created by developer to use for a purpose
 //Note there are three types of functions 
 // working on functions 
 // make a function to say mutiple names  
-function sayname(){
+function sayname() {
     ///  you put your function logic inside here 
     ///  note alway use return keyword inside your function 
 }
 // call your function to make your function work 
-function sayHello(name, age){   //   parameters are used inside your functions parenteless 
+function sayHello(name, age) {   //   parameters are used inside your functions parenteless 
     return `Hello my name is   ${name} and i am ${age} years old`
 }
-console.log(sayHello('Mayowa',34))  // while agurement are used outside your functions parentless
-console.log(sayHello('Dipo',24))
+// console.log(sayHello('Mayowa', 34))  // while agurement are used outside your functions parentless
+// console.log(sayHello('Dipo', 24))
 
-function sayState(countryName){
+function sayState(countryName) {
     return `The name of this counrtry is ${countryName}`
 }
-console.log(sayState('Nigiera'))
-console.log(sayState('Ghana'))
-console.log(sayState('USA'))
+// console.log(sayState('Nigiera'))
+// console.log(sayState('Ghana'))
+// console.log(sayState('USA'))
 
 // make a function to turn the  page to color of choice
-function changePageBlack(){
+function changePageBlack() {
     document.body.style.backgroundColor = 'green'
 }
 changePageBlack()
+
+
+
+
+/// build an app for state in  9ja ... make a function to check if the state selected existed 
+
+function myState(searchState) {
+    if (searchState === 'Lagos') {
+        return 'You are welcome to Lagos '
+    } else if (searchState === 'Oyo') {
+        return 'You are welcome to Oyo'
+    } else if (searchState === 'Ekiti') {
+        return 'You  are welcome to Ekiti'
+    }
+    else {
+        return 'Ha you did not pick any state please choose one'
+    }
+}
+
+// console.log( myState(  'Ekiti'  )  )  /// this funtions as been called 
+//note ajuement and prameter are working hand to hand 
+
+
+
+// // working with funtions and array's 
+// const studentNames = ['dipo', 'shola', 'admend', 'funke', 'sara']
+// function workArray(foundname){
+//     if(foundname === studentNames[0] ||  )
+// }
+
+// Logical operator && , ||  !=
+// &&  means if somethig is true 
+// || means if something is not really true just pick one 
+
+const color = 'red'
+const secondColor = 'green'
+const thirdColor = 'yellow'
+// && And  note all must be correct 
+// if(color === 'red' &&  secondColor === 'green' && thirdColor === 'yellow'){
+//     console.log('these color are correct.................')
+// }else{
+//     console.log('sorry no color match ')
+// }
+
+// //  || or  note , one must be correct 
+if (color === 'dipo' || secondColor === 'house' || thirdColor === 'yellow') {
+    console.log('these color are correct.................')
+} else {
+    console.log('sorry no color match ')
+}
+
+// working with funtions and array's 
+const studentNames = ['dipo', 'shola', 'admend', 'funke', 'sara']
+function workArray(foundname) {
+    /// longer code 
+    if (foundname === studentNames[0]) {
+        return `You choose name ${foundname}`
+    } else if (foundname === studentNames[1]) {
+        return `You choose name ${foundname}`
+    } else {
+        return 'No name was choosen '
+    }
+
+    /// more shorter code 
+    // if (foundname === studentNames[0] || foundname === studentNames[1]  || foundname === studentNames[2]) {
+    //     return `You choose the name ${foundname}`
+    // } else {
+    //     return 'You didnt choose any name '
+    // }
+
+}
+console.log(workArray('admend'))
+
+// classwork  const studentNames = ['dipo', 'shola', 'admend', 'funke', 'sara']
+// chnage to an object 
+
+const groupStudent ={
+    name1:'dipo',
+    name2:'shola',
+    name3:'admend',
+    name4:'funke',
+    name5:'sara'
+}
+
+function checkName(checkmyname){
+    if(checkmyname === groupStudent.name1 || checkmyname === groupStudent.name2){
+
+    }else{
+           return 'No name was choosen '
+    }
+}
