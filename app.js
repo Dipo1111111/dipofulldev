@@ -408,6 +408,8 @@ function sayHello(name, age) {   //   parameters are used inside your functions 
 }
 // console.log(sayHello('Mayowa', 34))  // while agurement are used outside your functions parentless
 // console.log(sayHello('Dipo', 24))
+// console.log(sayHello('Mayowa',34))  // while agurement are used outside your functions parentless
+// console.log(sayHello('Dipo',24))
 
 function sayState(countryName) {
     return `The name of this counrtry is ${countryName}`
@@ -512,3 +514,42 @@ function checkName(checkmyname){
            return 'No name was choosen '
     }
 }
+    
+changePageBlack()  // call the function to work 
+
+// Note you  use if statement , switch , loop, and other things inside function for what you wanna produce or make in your web app or even mobile app 
+
+// let if statment pluse function 
+
+
+function calulatorApp(sign, digitone, digittwo) {
+    //logic 
+    
+    if (sign === '+') {
+        return digitone + digittwo
+    } else {
+        return ' no sign was choosen'
+    }
+
+}
+
+
+console.log(calulatorApp('+', 10 , 10 ))
+
+console.log(calulatorApp('%' , 3, 10))
+
+
+// Comparison Operators  ,  === , ==
+//  == is use in array or object 
+// ===  is use is string to string  , number to number , boolean to boolean 
+
+// // example 
+// const x = ['dipo', 'mayowa', 'sara']
+// // console.log(  x[2]    )
+// const y = ['dipo']
+
+// if (x[0] == y[0]) {
+//     console.log('working')
+// }else{
+//     console.log('not working')
+// }
